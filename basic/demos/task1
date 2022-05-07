@@ -1,0 +1,5 @@
+def listen():
+  print("What shound did I hear")
+  sound = input()
+  print(f"That was to laud {sound}!")
+listen()

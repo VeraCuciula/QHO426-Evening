@@ -1,0 +1,8 @@
+def rectangle(h,w):
+    area =h*w
+    Perimetru =2*(h+w)  
+    print("\n Area is: %.2f"%area)
+    print("Perimetru is: %.2f"%Perimetru)
+
+
+rectangle(1,2)

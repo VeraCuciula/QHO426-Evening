@@ -1,0 +1,10 @@
+print("Please enter a choice\n\n1-See a nice message\n2-Calculate area of a rectangel\n3-Area of trapezium\n4-Times table")
+opt = int(input())
+  
+if opt== 1:
+  print("You do not smell to bad today!")
+elif opt == 2:  
+  lenght =float(input("Enter lenght: "))
+  width = float(input("Enter width: "))
+  area =lenght*width
+  print(f"Area of rectangle is  {area} cm^2")
